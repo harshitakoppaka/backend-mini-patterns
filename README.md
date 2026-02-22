@@ -1,15 +1,19 @@
-# backend-mini-patterns
+# Backend Mini Patterns
 
-A collection of small, reusable backend patterns implemented in Python.
-Each file focuses on a single concept commonly used in API and backend development.
+A collection of reusable backend system design patterns implemented in Python.
 
-## Contents
-- **Day 01**: Pagination helper for API responses
+These patterns focus on common production-ready concepts used in scalable backend systems.
 
-## Purpose
-This repository is meant for:
-- Practicing backend fundamentals
-- Building reusable utilities
-- Maintaining a consistent GitHub contribution streak
+## Included Patterns
 
-Each addition is intentionally small, focused, and practical.
+### Pagination Helper
+Utility for paginating large datasets in API responses.
+
+### Token Bucket Rate Limiter
+Implements request throttling using the token bucket algorithm to control API traffic.
+
+### Retry with Exponential Backoff
+Handles transient failures when calling unreliable external services.
+
+### TTL Cache (In-Memory)
+Implements time-based caching to reduce redundant computation and improve performance.
