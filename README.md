@@ -17,3 +17,5 @@ Handles transient failures when calling unreliable external services.
 
 ### TTL Cache (In-Memory)
 Implements time-based caching to reduce redundant computation and improve performance.
+### Circuit Breaker Pattern
+Implements failure detection and recovery logic to prevent cascading failures in distributed systems.

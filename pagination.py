@@ -1,5 +1,5 @@
 ﻿"""
-Day 01: Pagination helper
+ Pagination helper
 Purpose: reusable pagination logic for backend APIs
 """
 
