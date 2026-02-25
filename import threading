@@ -1,0 +1,4 @@
+class IdempotencyStore:
+    def __init__(self):
+        self.store = {}
+        self.lock = threading.Lock()
